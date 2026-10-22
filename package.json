@@ -1,0 +1,21 @@
+{
+  "name": "torrevieja-padel-courts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prehľad voľných padelových kurtov z Orihuely, NovaPadel a Torrevieje na jednej stránke.",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "smoke": "tsx scripts/smoke.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

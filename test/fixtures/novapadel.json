@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-23",
+  "rooms": [
+    { "id": "d737c85c-f252-49d0-95ed-3931d06be2cf", "name": "Pista 2" },
+    { "id": "3a5048b0-df1b-4518-a942-f45965aff653", "name": "Pista 3" },
+    { "id": "69b9190d-7b74-4c0f-8b60-74c299c7ab88", "name": "Pista 1" }
+  ],
+  "hours": [
+    { "startHour": 8, "endHour": 9, "startMinute": 0, "endMinute": 30, "availableDays": "MONDAY,TUESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "3a5048b0-df1b-4518-a942-f45965aff653", "available": false, "visible": true },
+    { "startHour": 8, "endHour": 9, "startMinute": 0, "endMinute": 30, "availableDays": "MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "d737c85c-f252-49d0-95ed-3931d06be2cf", "available": true, "visible": true },
+    { "startHour": 8, "endHour": 9, "startMinute": 0, "endMinute": 30, "availableDays": "MONDAY,FRIDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "69b9190d-7b74-4c0f-8b60-74c299c7ab88", "available": false, "visible": true },
+    { "startHour": 9, "endHour": 11, "startMinute": 30, "endMinute": 0, "availableDays": "TUESDAY,THURSDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "3a5048b0-df1b-4518-a942-f45965aff653", "available": true, "visible": false },
+    { "startHour": 12, "endHour": 14, "startMinute": 30, "endMinute": 0, "availableDays": "MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "d737c85c-f252-49d0-95ed-3931d06be2cf", "available": true, "visible": true },
+    { "startHour": 14, "endHour": 15, "startMinute": 0, "endMinute": 30, "availableDays": "MONDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "69b9190d-7b74-4c0f-8b60-74c299c7ab88", "available": true, "visible": true },
+    { "startHour": 15, "endHour": 17, "startMinute": 30, "endMinute": 0, "availableDays": "MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "d737c85c-f252-49d0-95ed-3931d06be2cf", "available": true, "visible": true },
+    { "startHour": 17, "endHour": 18, "startMinute": 0, "endMinute": 30, "availableDays": "MONDAY,TUESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "69b9190d-7b74-4c0f-8b60-74c299c7ab88", "available": false, "visible": true },
+    { "startHour": 18, "endHour": 20, "startMinute": 30, "endMinute": 0, "availableDays": "MONDAY,TUESDAY,THURSDAY,SATURDAY,SUNDAY", "enabled": true, "price": 9.0, "room": "d737c85c-f252-49d0-95ed-3931d06be2cf", "available": true, "visible": true },
+    { "startHour": 20, "endHour": 21, "startMinute": 0, "endMinute": 30, "availableDays": "MONDAY,TUESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY", "enabled": true, "price": 15.0, "room": "3a5048b0-df1b-4518-a942-f45965aff653", "available": false, "visible": true }
+  ]
+}

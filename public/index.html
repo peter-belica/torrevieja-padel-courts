@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Voľné kurty</title>
+    <meta name="description" content="Voľné padelové kurty v Orihuele, NovaPadel a Torrevieji na jednej stránke." />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f9d55'/%3E%3Ccircle cx='16' cy='16' r='7' fill='none' stroke='white' stroke-width='3'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="page-head">
+      <h1>Voľné padelové kurty</h1>
+      <p>Klikni na zelené okno a rezerváciu dokončíš na oficiálnom webe. Časy sú miestne (Španielsko).</p>
+    </header>
+
+    <nav class="controls" aria-label="Výber dňa">
+      <div class="dates" id="dates" role="group" aria-label="Deň"></div>
+      <ul class="legend" aria-label="Legenda">
+        <li><i class="s-free"></i>voľné</li>
+        <li><i class="s-busy"></i>obsadené</li>
+        <li><i class="s-na"></i>nedostupné</li>
+        <li><i class="s-past"></i>uplynulo</li>
+      </ul>
+    </nav>
+
+    <main id="calendars"></main>
+
+    <footer class="page-foot">
+      Údaje sa preberajú z oficiálnych rezervačných webov a môžu byť až 5 minút staré. Rezervácia vždy prebieha na
+      webe prevádzkovateľa.
+    </footer>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
